@@ -32,7 +32,7 @@ export default function Nav() {
     const bgColors = [
         "radial-gradient(at center, #AE1D1F, #4163CD",
         "radial-gradient(at center, #F96D26, #2A06FD)",
-        "radial-gradient(at center, #F8F994, #232CFB)",
+        "radial-gradient(at center, #AFB055, #232CFB)",
         "radial-gradient(at center, #71F97D, #174EE8)",
         "radial-gradient(at center, #308FCD, #25106B)",
         "radial-gradient(at center, #A501DB, #3330D2)",
