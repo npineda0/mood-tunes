@@ -1,0 +1,49 @@
+.questionContainer {
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 480px;
+    text-align: center;
+    color: $site-white;
+
+    .questionHeader {
+        font-size: 45px;
+        font-family: CaviarDreamsBold;
+    }
+
+    .questionTitle {
+        font-family: CaviarDreams;
+    }
+
+    .choicesContainer {
+        margin: 0 auto;
+        max-width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: left;
+        font-family: CaviarDreams;
+    }
+
+    //create playlist button
+    .questionBtn {
+        margin-top: 50px;
+        margin-bottom: 80px;
+
+        height: 60px;
+        width: 400px;
+    
+        border-radius: 40px;
+        background-color: $btn-green;
+        border: none;
+        cursor: pointer;
+    
+        font-size: 20px;
+        font-family: CaviarDreams;
+        color: $site-white;
+        text-align: center;
+        &:hover {
+            background-color: $site-white;
+            color: $btn-green;
+        }
+    }
+}
