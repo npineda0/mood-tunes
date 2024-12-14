@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Title
 
-## Getting Started
+MoodTunes
 
-First, run the development server:
+### Web App Link
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+https://mood-tunes-flax.vercel.app/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Project Summary
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+This web app allows users to create their own custom playlist by incorpating Spotify's API. Users need to have a
+Spotify account to login and access the sites features. Once they login, they can search for songs and and add them to their playlist. For interactivity, users can click a "Change me!" modal in the navigation to change the
+background color of their site to match their mood. There's also an account page where the user can logout and 
+an about page providing further information about the app and developer. 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Web App Structure 
 
-## Learn More
+1. **Navigation**
 
-To learn more about Next.js, take a look at the following resources:
+   - Description: The main navigation contains three sections: the hamburger navigation, logo, and "Change me!"
+   modal. The hamburger navigation transitions to an "x" for the user to exit out and contains two links: account and about. The logo redirects the user back to the home page. The "Change me!" modal has 10 background color
+   options the user can choose from. 
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Home Page**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   - Description: The main landing page of the application. When users are logged out, a description of the site
+   along with a login button are displayed. When logged in, the screen then displays the create playlist features.
+   The create playlist features are a search box, results container and playlist container. Users can search songs
+   by name and they will be displayed in the results container. The songs can then be added or removed from the 
+   playlist container. In the playlist container users can edit the name of their playlist and save it to their
+   spotify account. 
 
-## Deploy on Vercel
+3. **Account Page**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   - Description: Users are welcomed to the site and and two buttons are displayed: logout and create playlist.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. **About Page**
+
+   - Description: Where users can view information about the site and developer. 
+
+### Sources Cited
+
+- [ Spotify for Developers ](https://developer.spotify.com/documentation/web-api)
+- [ User Authorization ](https://github.com/spotify/web-api-examples/tree/master/authorization/authorization_code)
+- [ User Authentication ](https://next-auth.js.org/)
+- [ CSS Gradient ](https://www.css-gradient.com/)
+- [ MUI Library ](https://mui.com/)
+
