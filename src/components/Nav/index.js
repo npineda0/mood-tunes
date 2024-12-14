@@ -57,8 +57,8 @@ background: radial-gradient(at center, #205389, #685D96);
 background: #252223;
 background: radial-gradient(at center, #252223, #DBDBDB);
 
-background: #F8F994;
-background: radial-gradient(at center, #F8F994, #232CFB);
+background: #AFB055;
+background: radial-gradient(at center, #AFB055, #232CFB);
 
 background: #DEDBD1;
 background: radial-gradient(at center, #DEDBD1, #B558A2);

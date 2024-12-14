@@ -42,8 +42,8 @@ function SongSearcher() {
     }, [songName])
 
     return (
-        <section className='songSearcherSection w-full flex justify-center items-center md:mb-32 mb-14'>
-            <div className='songSearcherContent max-w-[50rem] flex justify-center items-center flex-row flex-wrap'>
+        <section className='songSearcherSection'>
+            <div className='songSearcherContent'>
                 <p className='songSearchTitle'>Search for any song <i>“names”</i></p>
                 <input
                     className='songSearchInput'

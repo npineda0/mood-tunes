@@ -7,6 +7,7 @@ const basic = Buffer.from(`${client_id}:${client_secret}`).toString('base64');
 const SPOTIFY_TOKEN_ENDPOINT = `https://accounts.spotify.com/api/token`;
 const BASE_URL = `https://api.spotify.com/v1`
 const USER_ID_ENDPOINT = `https://api.spotify.com/v1/me`
+// route files
 const ADD_SONGS_ENDPOINT = `api/spotify/createNewPlaylist/addSongs`;
 const ACCESS_TOKEN_ENDPOINT = `api/spotify/accessToken`;
 const REQUEST_SONGS_ENDPOINT = `api/spotify/requestSongs`;

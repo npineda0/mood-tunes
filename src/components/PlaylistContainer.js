@@ -1,8 +1,6 @@
 'use client'
 import { useEffect, useState } from "react"
 import SongContainer from "./SongContainer"
-//import Button from "./Button";
-//import ErrorBox from "./ErrorBox";
 import { useContext } from 'react';
 import { SpotifyContext } from '../context/SpotifyContextProvider';
 import { useSession } from "next-auth/react";
@@ -66,9 +64,9 @@ function PlaylistContainer() {
 
     return (
         <div className='playlistContainer'>
-            <div className='playlistContainerView songs-container'>
+            <div className='playlistContainerView'>
                 <input
-                    className='playlistContainerInput header-bold max-w-full rounded-2xl rounded-b-none focus-visible:outline-2 focus-visible:outline-white hover:opacity-70'
+                    className='playlistContainerInput'
                     style={{ background: 'none' }}
                     value={playlistName}
                     placeholder="Playlist Name"
@@ -86,8 +84,6 @@ function PlaylistContainer() {
                         )
                     })}
                 </div>
-
-               
 
                 <div className='playlistContainerButton'>
                     <button className='button' color={buttonColor} toggle={() => createPlaylist()}>{buttonText}</button>
