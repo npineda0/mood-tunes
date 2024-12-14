@@ -6,8 +6,6 @@ MoodTunes
 
 https://mood-tunes-flax.vercel.app/
 
-### Web App Link
-
 ### Web App Demo Link
 
 https://youtu.be/Hlamdlge1u8
